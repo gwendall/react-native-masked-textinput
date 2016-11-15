@@ -1,0 +1,46 @@
+{
+  "name": "react-native-masked-textinput",
+  "version": "0.0.1",
+  "description": "Apply masks to RN TextInput elements",
+  "author": "Gwendall Esnault <gwendall.esnault@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/gwendall/react-native-masked-textinput",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwendall/react-native-masked-textinput.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gwendall/react-native-masked-textinput/issues"
+  },
+  "tags": [
+    "input",
+    "masked input",
+    "format",
+    "formatted input"
+  ],
+  "keywords": [
+    "input",
+    "masked input",
+    "format",
+    "formatted input"
+  ],
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "main": "./lib/index.js",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "eslint": "^3.2.2",
+    "eslint-plugin-react": "^6.0.0",
+    "eslint-plugin-react-native": "^2.0.0"
+  },
+  "dependencies": {
+    "lodash": "latest",
+    "react": "15.3.2",
+    "react-native": "0.35.0",
+    "vanilla-masker": "1.0.9"
+  }
+}

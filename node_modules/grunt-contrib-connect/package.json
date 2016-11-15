@@ -1,0 +1,56 @@
+{
+  "name": "grunt-contrib-connect",
+  "description": "Start a connect web server.",
+  "version": "0.7.1",
+  "homepage": "https://github.com/gruntjs/grunt-contrib-connect",
+  "author": {
+    "name": "Grunt Team",
+    "url": "http://gruntjs.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gruntjs/grunt-contrib-connect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gruntjs/grunt-contrib-connect/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gruntjs/grunt-contrib-connect/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt jshint test"
+  },
+  "dependencies": {
+    "connect": "~2.13.0",
+    "connect-livereload": "~0.3.0",
+    "open": "0.0.4",
+    "portscanner": "0.2.2",
+    "async": "~0.2.10"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-internal": "~0.4.6",
+    "grunt": "~0.4.0",
+    "grunt-cli": "~0.1.13"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "server",
+    "connect",
+    "http"
+  ],
+  "files": [
+    "tasks",
+    "LICENSE-MIT"
+  ]
+}
